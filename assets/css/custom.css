@@ -1,0 +1,1233 @@
+@media (max-width: 320px){ 
+
+/* ================= GLOBAL =========================*/
+/*.dashboard-minicard{
+width:25%; 
+height: 100px;
+}
+*/
+.custom-chart{
+width:650px; 
+height:auto; 
+margin-left:2%;  
+}
+
+
+.font40{
+  font-size:20px;
+}
+.custom-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:500px;
+}
+.custom-header{
+font-size: 16px;
+margin:0 auto;
+}
+html{font-family: GillSans, Calibri, Trebuchet, sans-serif;
+;
+}
+
+.side-nav{
+top: 64px;
+width: 250px;
+}
+.text-header{
+margin: 5% 0 0 6%;
+}
+.material-icons.delete{
+color:#f44336;
+}
+a{
+text-decoration: none;
+}
+.stepper-button1{
+margin-top: -50%;
+}
+
+/* ========= CHANGE PASSWORD PAGE ==========*/
+/*=========== Select =========*/
+.select-wrapper label.invalid {
+margin-top: 62px;
+margin-left: -11px;
+color: #F44336;
+}
+/*============ Add Student Card Content =====================*/
+.student-content{
+margin-top:13px;
+width:90%;
+margin-left: 5%;
+height:650px;
+overflow-y: scroll;
+}
+
+.student-content-fill-form{
+margin-top:25px;
+width:90%;
+margin-left: 5%;
+height:1050px;
+}
+
+/* ======================================= LOGIN PAGE ======================================*/
+.button{
+margin-top: 100px;
+margin-left: 200px;
+}
+.custom-card{
+height:auto;
+margin-top:10%;
+width: 300px;
+}
+.custom-field{
+margin-top: 70px;
+}
+/* ================= ADD, SEARCH, VIEW PAGE =========================*/
+.header{
+width:100%;
+height:100px;
+margin:0 auto;
+}
+.custom-row{
+margin: 0 auto;
+}
+.custom-container {
+margin: 0 auto;
+max-width: 1280px;
+width: 95%;
+}
+.sidebar{
+margin: 0 auto;
+}
+/* ===================================== SEARCH PAGE ========================================*/
+.custom-nav{   /*== search bar ==*/
+margin-top: 5%;
+}
+
+/* ================= ADD PAGE =========================*/
+.custom-button-buttom{ /*== submit button ==*/
+margin-top: 50px;
+}
+.add-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:600px;
+}
+/*==================================================== Admin PAGE =========================================*/
+/*======== Admin Global ========*/
+.card-top{
+margin-top: 5%;
+}
+.custom-button-top{ /*== submit button ==*/
+margin-top: 10px;
+}
+/* ========= admin_add_user page-break-inside:========== */
+.adduser-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:520px;
+overflow-y: scroll;
+}
+
+.profile-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:520px;
+}
+
+
+.change-ps-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:530px;
+}
+/*============ view_accounts PAGE =====================*/
+.accounts-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:680px;
+overflow-y: scroll;
+}
+
+
+/*======== admin_edit violation.php ========*/
+.edit-violation-content{
+margin-top:60px;
+width:55%;
+margin-left: 20%;
+height:380px;
+}
+/*====== ======*/
+
+/*========= add school page =========*/
+
+.school-content{
+margin-top:5%;
+width:65%;
+margin-left:15%;
+height:400px;
+}
+
+
+
+} /* End of Landscape phone and down (320px) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Landscape phones and down */
+@media (min-width: 321px){ 
+
+/* ================= GLOBAL =========================*/
+/*.dashboard-minicard{
+width:25%; 
+height: 100px;
+}
+*/
+.custom-chart{
+width:650px; 
+height:auto; 
+margin-left:2%;  
+}
+
+
+.font40{
+  font-size:20px;
+}
+.custom-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:500px;
+}
+.custom-header{
+font-size: 16px;
+margin:0 auto;
+}
+html{font-family: GillSans, Calibri, Trebuchet, sans-serif;
+;
+}
+
+.side-nav{
+top: 64px;
+width: 250px;
+}
+.text-header{
+margin: 5% 0 0 6%;
+}
+.material-icons.delete{
+color:#f44336;
+}
+a{
+text-decoration: none;
+}
+.stepper-button1{
+margin-top: -50%;
+}
+
+/* ========= CHANGE PASSWORD PAGE ==========*/
+/*=========== Select =========*/
+.select-wrapper label.invalid {
+margin-top: 62px;
+margin-left: -11px;
+color: #F44336;
+}
+/*============ Add Student Card Content =====================*/
+.student-content{
+margin-top:13px;
+width:90%;
+margin-left: 5%;
+height:650px;
+overflow-y: scroll;
+}
+
+.student-content-fill-form{
+margin-top:25px;
+width:90%;
+margin-left: 5%;
+height:1050px;
+}
+
+/* ======================================= LOGIN PAGE ======================================*/
+.button{
+margin-top: 100px;
+margin-left: 200px;
+}
+.custom-card{
+height:auto;
+margin-top:10%;
+width: 300px;
+}
+.custom-field{
+margin-top: 70px;
+}
+/* ================= ADD, SEARCH, VIEW PAGE =========================*/
+.header{
+width:100%;
+height:100px;
+margin:0 auto;
+}
+.custom-row{
+margin: 0 auto;
+}
+.custom-container {
+margin: 0 auto;
+max-width: 1280px;
+width: 95%;
+}
+.sidebar{
+margin: 0 auto;
+}
+/* ===================================== SEARCH PAGE ========================================*/
+.custom-nav{   /*== search bar ==*/
+margin-top: 5%;
+}
+
+/* ================= ADD PAGE =========================*/
+.custom-button-buttom{ /*== submit button ==*/
+margin-top: 50px;
+}
+.add-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:600px;
+}
+/*==================================================== Admin PAGE =========================================*/
+/*======== Admin Global ========*/
+.card-top{
+margin-top: 5%;
+}
+.custom-button-top{ /*== submit button ==*/
+margin-top: 10px;
+}
+/* ========= admin_add_user page-break-inside:========== */
+.adduser-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:520px;
+overflow-y: scroll;
+}
+
+.profile-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:520px;
+}
+
+
+.change-ps-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:530px;
+}
+/*============ view_accounts PAGE =====================*/
+.accounts-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:680px;
+overflow-y: scroll;
+}
+
+
+/*======== admin_edit violation.php ========*/
+.edit-violation-content{
+margin-top:60px;
+width:55%;
+margin-left: 20%;
+height:380px;
+}
+/*====== ======*/
+
+/*========= add school page =========*/
+
+.school-content{
+margin-top:5%;
+width:65%;
+margin-left:15%;
+height:400px;
+}
+
+
+
+} /* End of Landscape phone and down (480pxpx) */
+
+
+
+
+
+
+
+
+
+
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 767px) { 
+
+/* ================= GLOBAL =========================*/
+/*.dashboard-minicard{
+width:25%; 
+height: 100px;
+}
+*/
+.custom-chart{
+width:650px; 
+height:auto; 
+margin-left:2%;  
+}
+
+
+.font40{
+  font-size:20px;
+}
+.custom-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:500px;
+}
+.custom-header{
+font-size: 16px;
+margin:0 auto;
+}
+html{font-family: GillSans, Calibri, Trebuchet, sans-serif;
+;
+}
+
+.side-nav{
+top: 64px;
+width: 250px;
+}
+.text-header{
+margin: 5% 0 0 6%;
+}
+.material-icons.delete{
+color:#f44336;
+}
+a{
+text-decoration: none;
+}
+.stepper-button1{
+margin-top: -50%;
+}
+
+/* ========= CHANGE PASSWORD PAGE ==========*/
+/*=========== Select =========*/
+.select-wrapper label.invalid {
+margin-top: 62px;
+margin-left: -11px;
+color: #F44336;
+}
+/*============ Add Student Card Content =====================*/
+.student-content{
+margin-top:13px;
+width:90%;
+margin-left: 5%;
+height:650px;
+overflow-y: scroll;
+}
+
+.student-content-fill-form{
+margin-top:25px;
+width:90%;
+margin-left: 5%;
+height:1050px;
+}
+
+/* ======================================= LOGIN PAGE ======================================*/
+.button{
+margin-top: 100px;
+margin-left: 200px;
+}
+.custom-card{
+height:450px;
+margin-left:20%;
+margin-top:20%;
+width: 400px;
+}
+.custom-field{
+margin-top: 70px;
+}
+/* ================= ADD, SEARCH, VIEW PAGE =========================*/
+.header{
+width:100%;
+height:100px;
+margin:0 auto;
+}
+.custom-row{
+margin: 0 auto;
+}
+.custom-container {
+margin: 0 auto;
+max-width: 1280px;
+width: 95%;
+}
+.sidebar{
+margin: 0 auto;
+}
+/* ===================================== SEARCH PAGE ========================================*/
+.custom-nav{   /*== search bar ==*/
+margin-top: 5%;
+}
+
+/* ================= ADD PAGE =========================*/
+.custom-button-buttom{ /*== submit button ==*/
+margin-top: 50px;
+}
+.add-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:600px;
+}
+/*==================================================== Admin PAGE =========================================*/
+/*======== Admin Global ========*/
+.card-top{
+margin-top: 5%;
+}
+.custom-button-top{ /*== submit button ==*/
+margin-top: 10px;
+}
+/* ========= admin_add_user page-break-inside:========== */
+.adduser-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:520px;
+overflow-y: scroll;
+}
+
+.profile-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:520px;
+}
+
+
+.change-ps-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:530px;
+}
+/*============ view_accounts PAGE =====================*/
+.accounts-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:680px;
+overflow-y: scroll;
+}
+
+
+/*======== admin_edit violation.php ========*/
+.edit-violation-content{
+margin-top:60px;
+width:55%;
+margin-left: 20%;
+height:380px;
+}
+/*====== ======*/
+
+/*========= add school page =========*/
+
+.school-content{
+margin-top:5%;
+width:65%;
+margin-left:15%;
+height:400px;
+}
+
+
+
+} /* End of Landscape phone to portrait tablet (767px) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*############### TABLET (tablets, 768px and up) ##################*/
+@media (min-width: 768px) { 
+/* ================= GLOBAL =========================*/
+/*.dashboard-minicard{
+width:25%; 
+height: 100px;
+}
+*/
+.custom-chart{
+width:650px; 
+height:auto; 
+margin-left:2%;  
+}
+
+
+.font40{
+  font-size:20px;
+}
+.custom-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:500px;
+}
+.custom-header{
+font-size: 16px;
+margin:0 auto;
+}
+html{font-family: GillSans, Calibri, Trebuchet, sans-serif;
+;
+}
+
+.side-nav{
+top: 64px;
+width: 250px;
+}
+.text-header{
+margin: 5% 0 0 6%;
+}
+.material-icons.delete{
+color:#f44336;
+}
+a{
+text-decoration: none;
+}
+.stepper-button1{
+margin-top: -50%;
+}
+
+/* ========= CHANGE PASSWORD PAGE ==========*/
+/*=========== Select =========*/
+.select-wrapper label.invalid {
+margin-top: 62px;
+margin-left: -11px;
+color: #F44336;
+}
+/*============ Add Student Card Content =====================*/
+.student-content{
+margin-top:13px;
+width:90%;
+margin-left: 5%;
+height:650px;
+overflow-y: scroll;
+}
+
+.student-content-fill-form{
+margin-top:25px;
+width:90%;
+margin-left: 5%;
+height:1050px;
+}
+
+/* ======================================= LOGIN PAGE ======================================*/
+.button{
+margin-top: 100px;
+margin-left: 200px;
+}
+.custom-card{
+height:450px;
+margin-left:25%;
+margin-top:25%;
+width: 400px;
+}
+.custom-field{
+margin-top: 70px;
+}
+/* ================= ADD, SEARCH, VIEW PAGE =========================*/
+.header{
+width:100%;
+height:100px;
+margin:0 auto;
+}
+.custom-row{
+margin: 0 auto;
+}
+.custom-container {
+margin: 0 auto;
+max-width: 1280px;
+width: 95%;
+}
+.sidebar{
+margin: 0 auto;
+}
+/* ===================================== SEARCH PAGE ========================================*/
+.custom-nav{   /*== search bar ==*/
+margin-top: 5%;
+}
+
+/* ================= ADD PAGE =========================*/
+.custom-button-buttom{ /*== submit button ==*/
+margin-top: 50px;
+}
+.add-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:600px;
+}
+/*==================================================== Admin PAGE =========================================*/
+/*======== Admin Global ========*/
+.card-top{
+margin-top: 5%;
+}
+.custom-button-top{ /*== submit button ==*/
+margin-top: 10px;
+}
+/* ========= admin_add_user page-break-inside:========== */
+.adduser-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:520px;
+overflow-y: scroll;
+}
+
+.profile-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:520px;
+}
+
+
+.change-ps-content{
+margin-top:20px;
+width:70%;
+margin-left: 15%;
+height:530px;
+}
+/*============ view_accounts PAGE =====================*/
+.accounts-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:680px;
+overflow-y: scroll;
+}
+
+
+/*======== admin_edit violation.php ========*/
+.edit-violation-content{
+margin-top:60px;
+width:55%;
+margin-left: 20%;
+height:380px;
+}
+/*====== ======*/
+
+/*========= add school page =========*/
+
+.school-content{
+margin-top:5%;
+width:65%;
+margin-left:15%;
+height:400px;
+}
+
+ } /* ----------- END OF TABLET ----------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*############# MEDUIM devices (desktops, 992px and up) #####################*/
+@media (min-width: 992px) { 
+/* ================= GLOBAL =========================*/
+.custom-chart{
+width:900px; 
+height:auto; 
+margin-left:7%;  
+}
+
+.font40{
+  font-size:20px;
+}
+.custom-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:500px;
+}
+.custom-header{
+font-size: 16px;
+margin:0 auto;
+}
+html{font-family: GillSans, Calibri, Trebuchet, sans-serif;
+;
+}
+
+.side-nav{
+top: 64px;
+width: 250px;
+}
+.text-header{
+margin: 5% 0 0 6%;
+}
+.material-icons.delete{
+color:#f44336;
+}
+a{
+text-decoration: none;
+}
+.stepper-button1{
+margin-top: -50%;
+}
+
+/* ========= CHANGE PASSWORD PAGE ==========*/
+/*=========== Select =========*/
+.select-wrapper label.invalid {
+margin-top: 62px;
+margin-left: -11px;
+color: #F44336;
+}
+/*============ Add Student Card Content =====================*/
+.student-content{
+margin-top:13px;
+width:90%;
+margin-left: 5%;
+height:550px;
+overflow-y: scroll;
+}
+
+.student-content-fill-form{
+margin-top:13px;
+width:80%;
+margin-left: 10%;
+height:1050px;
+}
+
+/* ======================================= LOGIN PAGE ======================================*/
+.button{
+margin-top: 100px;
+margin-left: 200px;
+}
+.custom-card{
+height:450px;
+margin-left:25%;
+margin-top:25%;
+width: 400px;
+}
+.custom-field{
+margin-top: 70px;
+}
+/* ================= ADD, SEARCH, VIEW PAGE =========================*/
+.header{
+width:100%;
+height:100px;
+margin:0 auto;
+}
+.custom-row{
+margin: 0 auto;
+}
+.custom-container {
+margin: 0 auto;
+max-width: 1280px;
+width: 95%;
+}
+.sidebar{
+margin: 0 auto;
+}
+/* ===================================== SEARCH PAGE ========================================*/
+.custom-nav{   /*== search bar ==*/
+margin-top: 5%;
+}
+
+/* ================= ADD PAGE =========================*/
+.custom-button-buttom{ /*== submit button ==*/
+margin-top: 50px;
+}
+.add-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:600px;
+}
+/*==================================================== Admin PAGE =========================================*/
+/*======== Admin Global ========*/
+.card-top{
+margin-top: 5%;
+}
+.custom-button-top{ /*== submit button ==*/
+margin-top: 10px;
+}
+/* ========= admin_add_user page-break-inside:========== */
+.adduser-content{
+margin-top:20px;
+width:50%;
+margin-left: 25%;
+height:520px;
+overflow-y: scroll;
+}
+
+.profile-content{
+margin-top:20px;
+width:55%;
+margin-left: 25%;
+height:520px;
+}
+
+.change-ps-content{
+margin-top:20px;
+width:50%;
+margin-left: 25%;
+height:530px;
+}
+/*============ view_accounts PAGE =====================*/
+.accounts-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:550px;
+overflow-y: scroll;
+}
+
+
+/*======== admin_edit violation.php ========*/
+.edit-violation-content{
+margin-top:60px;
+width:50%;
+margin-left: 25%;
+height:380px;
+}
+/*====== ======*/
+
+/*========= add school page =========*/
+
+.school-content{
+margin-top:5%;
+width:55%;
+margin-left: 20%;
+height:400px;
+}
+
+
+ } /* ------------ END OF MEDUIM ---------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*############### LARGE devices (large desktops, 1200px and up) ##############*/
+@media (min-width: 1200px) { 
+/* ================= GLOBAL =========================*/
+.custom-chart{
+width:950px; 
+height:auto; 
+margin-left:10%;  
+}
+
+.font40{
+  font-size:20px;
+}
+.custom-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:500px;
+}
+.custom-header{
+font-size: 16px;
+margin:0 auto;
+}
+html{font-family: GillSans, Calibri, Trebuchet, sans-serif;
+;
+}
+
+.side-nav{
+top: 64px;
+width: 250px;
+}
+.text-header{
+margin: 5% 0 0 6%;
+}
+.material-icons.delete{
+color:#f44336;
+}
+a{
+text-decoration: none;
+}
+.stepper-button1{
+margin-top: -50%;
+}
+/* ========= CHANGE PASSWORD PAGE ==========*/
+/*=========== Select =========*/
+.select-wrapper label.invalid {
+margin-top: 62px;
+margin-left: -11px;
+color: #F44336;
+}
+/*============ Add Student Card Content =====================*/
+.student-content{
+margin-top:13px;
+width:92%;
+margin-left: 5%;
+height:550px;
+overflow-y: scroll;
+}
+
+.student-content-fill-form{
+margin-top:25px;
+width:90%;
+margin-left: 5%;
+height:1050px;
+}
+
+/* ======================================= LOGIN PAGE ======================================*/
+.button{
+margin-top: 100px;
+margin-left: 200px;
+}
+.custom-card{
+height:450px;
+margin-left:25%;
+margin-top:15%;
+width: 400px;
+}
+.custom-field{
+margin-top: 70px;
+}
+/* ================= ADD, SEARCH, VIEW PAGE =========================*/
+.header{
+width:100%;
+height:100px;
+margin:0 auto;
+}
+.custom-row{
+margin: 0 auto;
+}
+.custom-container {
+margin: 0 auto;
+max-width: 1280px;
+width: 95%;
+}
+.sidebar{
+margin: 0 auto;
+}
+/* ===================================== SEARCH PAGE ========================================*/
+.custom-nav{   /*== search bar ==*/
+margin-top: 5%;
+}
+
+/* ================= ADD PAGE =========================*/
+.custom-button-buttom{ /*== submit button ==*/
+margin-top: 50px;
+}
+.add-content{
+margin-top:20px;
+width:70%;
+margin-left: 25%;
+height:600px;
+}
+/*==================================================== Admin PAGE =========================================*/
+/*======== Admin Global ========*/
+.card-top{
+margin-top: 5%;
+}
+.custom-button-top{ /*== submit button ==*/
+margin-top: 10px;
+}
+/* ========= admin_add_user page-break-inside:========== */
+.adduser-content{
+margin-top:20px;
+width:50%;
+margin-left: 25%;
+height:520px;
+overflow-y: scroll;
+}
+
+.profile-content{
+margin-top:20px;
+width:55%;
+margin-left: 25%;
+height:520px;
+}
+
+
+.change-ps-content{
+margin-top:50px;
+width:50%;
+margin-left: 25%;
+height:530px;
+}
+/*============ view_accounts PAGE =====================*/
+.accounts-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:550px;
+overflow-y: scroll;
+}
+
+/*======== admin_edit violation.php ========*/
+.edit-violation-content{
+margin-top:60px;
+width:50%;
+margin-left: 25%;
+height:380px;
+}
+/*====== ======*/
+
+/*========= add school page =========*/
+
+.school-content{
+margin-top:5%;
+width:55%;
+margin-left: 20%;
+height:400px;
+}
+
+ }/* ----------- END OF LARGE -------------- */
+
+
+/*------- RESPONSIVE CONTENT ----- 
+.dashboard-minicard{
+width:25%; 
+height: 100px;
+}
+
+.custom-chart{
+width:900px; 
+height:auto; 
+margin-left:7%;  
+}
+
+.custom-card{
+height:450px;
+margin-left:25%;
+margin-top:25%;
+width: 400px;
+}
+
+.student-content-fill-form{
+margin-top:13px;
+width:80%;
+margin-left: 10%;
+height:1050px;
+}
+
+.adduser-content{
+margin-top:20px;
+width:50%;
+margin-left: 25%;
+height:520px;
+overflow-y: scroll;
+}
+
+.accounts-content{
+margin-top:13px;
+width:79%;
+margin-left: 19.5%;
+height:550px;
+overflow-y: scroll;
+}
+
+.student-content{
+margin-top:13px;
+width:80%;
+margin-left: 19.5%;
+height:550px;
+overflow-y: scroll;
+}
+
+.school-content{
+margin-top:5%;
+width:40%;
+margin-left: 35%;
+height:400px;
+}
+
+.edit-violation-content{
+margin-top:60px;
+width:42%;
+margin-left: 35%;
+height:380px;
+}
+
+.profile-content{
+margin-top:20px;
+width:55%;
+margin-left: 25%;
+height:520px;
+}
+
+.change-ps-content{
+margin-top:20px;
+width:50%;
+margin-left: 25%;
+height:530px;
+}
+
+
+
+
+
+/*input[name="buildDate"]:focus.invalid~label:after,
+input[name="buildDate"].invalid~label:after {
+  content: attr(data-error);
+  color: #F44336;
+  opacity: 1;
+}
+input[name="buildDate"]:focus~label:after,
+input[name="buildDate"]~label:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 36px;
+  opacity: 0;
+  white-space: pre;
+  transition: .2s opacity ease-out, .2s color ease-out;
+}*/
+
+
+
+
+
+

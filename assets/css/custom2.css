@@ -1,0 +1,998 @@
+
+
+/* font size */
+
+.font18{
+	font-size:18px;
+}
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) { 
+
+/* ============== Search Container ==========*/
+.s-content{
+margin-top:13px;
+width:97%;
+margin-left: 2%;
+height:680px;
+overflow-y: scroll;
+}
+
+/* ===== stepper2 =============== */
+.p-label{
+ font-weight: bold;
+}
+
+/* ===== fixed button =============== */
+.button-float{
+	position: fixed;
+	margin-left:60%;
+	
+}
+
+/* ===== fixed button 2 =============== */
+.button-float2{
+	position: fixed;
+	margin-left:60%;
+}
+
+/* ===== edit button for other school (admin_edit_student.php) =============== */
+.group-button-edit-violation{
+	margin-left:20%;
+}
+
+.group-button-violation{
+	margin-left:50%;
+	margin-top:-8%;
+}
+
+/* ========= Security Question Page=========*/
+.set-sec-content{
+margin-top:80px;
+width:50%;
+margin-left: 25%;
+height:400px;
+}
+
+/*================ Recover Password Page 1 ==========*/
+.custom-card-recover{
+height:220px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+.custom-card-recover2{
+height:300px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+.custom-card-recover3{
+height:380px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+
+.add-violation-content{
+margin-top:20px;
+width:50%;
+margin-left: 23%;
+height:510px;
+}
+
+/*================== card panel of student records page=================*/
+.student-records-content{
+margin-top:8%;
+width:40%;
+margin-left: 30%;
+height:300px;
+}
+
+/*================== card panel of student records results page=================*/
+.student-records-results-content{
+margin-top:15px;
+width:93%;
+margin-left: 5%;
+height:750px;
+overflow-y: scroll;
+}
+
+
+/* ==============  Year level  ===== grade7.php ================= */
+
+.year-level-content {
+	width: 90%;
+	margin-left: 5%;
+	height: 650px;
+	margin-top: 2%;
+	/* overflow-wrap: scroll; */
+	overflow-y: scroll;
+}
+
+/* ==============  Add Section Content  ==== add_section_grd7.php ================== */
+
+.add-section-content{
+margin-top:70px;
+width:30%;
+margin-left: 39%;
+height:400px;
+}
+
+/* ============== Violation Content==== collection_of_violation.php ================== */
+.collection-of-violation-content{
+margin-top:13px;
+width:95%;
+margin-left: 3%;
+height:650px;
+overflow-y: scroll;
+}
+
+/* ============== Violation Content==== add_violation_collection.php ================== */
+.add-violation-collection-content{
+margin-top:5%;
+width:40%;
+margin-left: 30%;
+height:350px;
+}
+
+/* ============== Dash Board Page ==== add_dashboard.php ================== */
+
+.dashboard-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:1000px;
+
+}
+
+/*=================  ICONS ===============*/
+.icon-white{
+color:white;
+}
+
+.icon-pad-5{
+	padding-top:5%;
+}
+
+.icon-pad-30{
+padding-top:30%;
+}
+
+.icon-pad-20{
+padding-top:30%;
+}
+
+
+} /* End of Landscape phone and down (480pxpx) */
+
+
+
+
+
+
+
+
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+/* ============== Search Container ==========*/
+.s-content{
+margin-top:13px;
+width:97%;
+margin-left: 2%;
+height:680px;
+overflow-y: scroll;
+}
+
+/* ===== stepper2 =============== */
+.p-label{
+ font-weight: bold;
+}
+
+/* ===== fixed button =============== */
+.button-float{
+	position: fixed;
+	margin-left:60%;
+	
+}
+
+/* ===== fixed button 2 =============== */
+.button-float2{
+	position: fixed;
+	margin-left:60%;
+}
+
+/* ===== edit button for other school (admin_edit_student.php) =============== */
+.group-button-edit-violation{
+	margin-left:20%;
+}
+
+.group-button-violation{
+	margin-left:50%;
+	margin-top:-8%;
+}
+
+/* ========= Security Question Page=========*/
+.set-sec-content{
+margin-top:80px;
+width:50%;
+margin-left: 25%;
+height:400px;
+}
+
+/*================ Recover Password Page 1 ==========*/
+.custom-card-recover{
+height:220px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+.custom-card-recover2{
+height:300px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+.custom-card-recover3{
+height:380px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+
+.add-violation-content{
+margin-top:20px;
+width:50%;
+margin-left: 23%;
+height:510px;
+}
+
+/*================== card panel of student records page=================*/
+.student-records-content{
+margin-top:8%;
+width:40%;
+margin-left: 30%;
+height:300px;
+}
+
+/*================== card panel of student records results page=================*/
+.student-records-results-content{
+margin-top:15px;
+width:93%;
+margin-left: 5%;
+height:750px;
+overflow-y: scroll;
+}
+
+
+/* ==============  Year level  ===== grade7.php ================= */
+
+.year-level-content {
+	width: 90%;
+	margin-left: 5%;
+	height: 650px;
+	margin-top: 2%;
+	/* overflow-wrap: scroll; */
+	overflow-y: scroll;
+}
+
+/* ==============  Add Section Content  ==== add_section_grd7.php ================== */
+
+.add-section-content{
+margin-top:70px;
+width:30%;
+margin-left: 39%;
+height:400px;
+}
+
+/* ============== Violation Content==== collection_of_violation.php ================== */
+.collection-of-violation-content{
+margin-top:13px;
+width:95%;
+margin-left: 3%;
+height:650px;
+overflow-y: scroll;
+}
+
+/* ============== Violation Content==== add_violation_collection.php ================== */
+.add-violation-collection-content{
+margin-top:5%;
+width:40%;
+margin-left: 30%;
+height:350px;
+}
+
+/* ============== Dash Board Page ==== add_dashboard.php ================== */
+
+.dashboard-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:1000px;
+
+}
+
+/*=================  ICONS ===============*/
+.icon-white{
+color:white;
+}
+
+.icon-pad-5{
+	padding-top:5%;
+}
+
+.icon-pad-30{
+padding-top:30%;
+}
+
+.icon-pad-20{
+padding-top:30%;
+}
+
+
+
+} /* End of Landscape phone to portrait tablet (767px) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*############### TABLET (tablets, 768px and up) ##################*/
+@media (min-width: 768px) { 
+
+/* ============== Search Container ==========*/
+.s-content{
+margin-top:13px;
+width:97%;
+margin-left: 2%;
+height:680px;
+overflow-y: scroll;
+}
+
+.adviser-content{
+margin-top:2%;
+width:70%;
+margin-left: 17%;
+height:500px;
+overflow-y:scroll; 
+}
+
+.add-adviser-content{
+margin-top:10%;
+width:58%;
+margin-left: 23%;
+height:300px;
+}
+
+
+/* ===== stepper2 =============== */
+.p-label{
+ font-weight: bold;
+}
+
+/* ===== fixed button =============== */
+.button-float{
+	position: fixed;
+	margin-left:60%;
+	
+}
+
+/* ===== fixed button 2 =============== */
+.button-float2{
+	position: fixed;
+	margin-left:60%;
+}
+
+/* ===== edit button for other school (admin_edit_student.php) =============== */
+.group-button-edit-violation{
+	margin-left:20%;
+}
+
+.group-button-violation{
+	margin-left:50%;
+	margin-top:-8%;
+}
+
+/* ========= Security Question Page=========*/
+.set-sec-content{
+margin-top:80px;
+width:50%;
+margin-left: 25%;
+height:400px;
+}
+
+/*================ Recover Password Page 1 ==========*/
+.custom-card-recover{
+height:220px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+.custom-card-recover2{
+height:300px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+.custom-card-recover3{
+height:380px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+
+.add-violation-content{
+margin-top:20px;
+width:50%;
+margin-left: 23%;
+height:510px;
+}
+
+/*================== card panel of student records page=================*/
+.student-records-content{
+margin-top:8%;
+width:40%;
+margin-left: 30%;
+height:300px;
+}
+
+/*================== card panel of student records results page=================*/
+.student-records-results-content{
+margin-top:15px;
+width:93%;
+margin-left: 5%;
+height:750px;
+overflow-y: scroll;
+}
+
+
+/* ==============  Year level  ===== grade7.php ================= */
+
+.year-level-content {
+	width: 90%;
+	margin-left: 5%;
+	height: 650px;
+	margin-top: 2%;
+	/* overflow-wrap: scroll; */
+	overflow-y: scroll;
+}
+
+/* ==============  Add Section Content  ==== add_section_grd7.php ================== */
+
+.add-section-content{
+margin-top:70px;
+width:50%;
+margin-left: 25%;
+height:400px;
+}
+
+/* ============== Violation Content==== collection_of_violation.php ================== */
+.collection-of-violation-content{
+margin-top:13px;
+width:95%;
+margin-left: 3%;
+height:650px;
+overflow-y: scroll;
+}
+
+/* ============== Violation Content==== add_violation_collection.php ================== */
+.add-violation-collection-content{
+margin-top:5%;
+width:40%;
+margin-left: 30%;
+height:350px;
+}
+
+/* ============== Dash Board Page ==== add_dashboard.php ================== */
+
+.dashboard-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:1000px;
+
+}
+
+/*=================  ICONS ===============*/
+.icon-white{
+color:white;
+}
+
+.icon-pad-5{
+	padding-top:5%;
+}
+
+.icon-pad-30{
+padding-top:30%;
+}
+
+.icon-pad-20{
+padding-top:30%;
+}
+
+ } /* ----------- END OF SMALLL ----------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*############# MEDUIM devices (desktops, 992px and up) #####################*/
+@media (min-width: 992px) { 
+
+/* ============== Search Container ==========*/
+.s-content{
+margin-top:13px;
+width:97%;
+margin-left: 2%;
+height:550px;
+overflow-y: scroll;
+}
+
+.adviser-content{
+margin-top:2%;
+width:50%;
+margin-left: 25%;
+height:500px;
+overflow-y:scroll; 
+}
+
+.add-adviser-content{
+margin-top:5%;
+width:45%;
+margin-left: 30%;
+height:300px;
+}
+
+/* ===== stepper2 =============== */
+.p-label{
+ font-weight: bold;
+}
+
+/* ===== fixed button =============== */
+.button-float{
+	position: fixed;
+	margin-left:60%;
+	
+}
+
+/* ===== fixed button 2 =============== */
+.button-float2{
+	position: fixed;
+	margin-left:60%;
+}
+
+/* ===== edit button for other school (admin_edit_student.php) =============== */
+.group-button-edit-violation{
+	margin-left:40%;
+}
+
+.group-button-violation{
+	margin-left:50%;
+	margin-top:-8%;
+}
+
+/* ========= Security Question Page=========*/
+.set-sec-content{
+margin-top:80px;
+width:50%;
+margin-left: 25%;
+height:400px;
+}
+
+/*================ Recover Password Page 1 ==========*/
+.custom-card-recover{
+height:220px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+/*================ Recover Password Page 2 ==========*/
+.custom-card-recover2{
+height:300px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+/*================ Recover Password Page 3 ==========*/
+.custom-card-recover3{
+height:380px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+
+.add-violation-content{
+margin-top:35px;
+width:38%;
+margin-left: 30%;
+height:510px;
+overflow-y: scroll;
+}
+
+/*================== card panel of student records page=================*/
+.student-records-content{
+margin-top:8%;
+width:35%;
+margin-left: 30%;
+height:300px;
+}
+
+/*================== card panel of student records results page=================*/
+.student-records-results-content{
+margin-top:15px;
+width:95%;
+margin-left: 5%;
+height:550px;
+overflow-y: scroll;
+}
+
+.collapsible-report{
+	margin-bottom:100px;
+}
+/* ==============  Year level  ===== grade7.php ================= */
+.year-level-content {
+	width: 90%;
+	margin-left: 5%;
+	height: 550px;
+	margin-top: 2%;
+	/* overflow-wrap: scroll; */
+	overflow-y: scroll;
+}
+/* ==============  Add Section Content  ==== add_section_grd7.php ================== */
+
+.add-section-content{
+margin-top:70px;
+width:50%;
+margin-left: 25%;
+height:400px;
+}
+
+/* ============== Violation Content==== collection_of_violation.php ================== */
+.collection-of-violation-content{
+margin-top:13px;
+width:95%;
+margin-left: 3%;
+height:550px;
+overflow-y: scroll;
+}
+
+/* ============== Violation Content==== add_violation_collection.php ================== */
+.add-violation-collection-content{
+margin-top:5%;
+width:40%;
+margin-left: 30%;
+height:350px;
+}
+
+/* ============== Dash Board Page ==== add_dashboard.php ================== */
+
+.dashboard-content{
+margin-top:15px;
+width:100%;
+height:1000px;
+
+}
+
+/*=================  ICONS ===============*/
+.icon-white{
+color:white;
+}
+
+.icon-pad-5{
+	padding-top:5%;
+}
+
+.icon-pad-30{
+padding-top:30%;
+}
+
+.icon-pad-20{
+padding-top:30%;
+}
+
+ } /* ------------ END OF MEDUIM ---------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*############### LARGE devices (large desktops, 1200px and up) ##############*/
+@media (min-width: 1200px) { 
+
+/* ============== Search Container ==========*/
+.s-content{
+margin-top:13px;
+width:97%;
+margin-left: 2%;
+height:550px;
+overflow-y: scroll;
+}
+
+.adviser-content{
+margin-top:2%;
+width:50%;
+margin-left: 25%;
+height:500px;
+overflow-y:scroll; 
+}
+
+.add-adviser-content{
+margin-top:5%;
+width:35%;
+margin-left: 32%;
+height:300px;
+}	
+
+/* ===== stepper2 =============== */
+.p-label{
+ font-weight: bold;
+}
+
+/* ===== fixed button =============== */
+.button-float{
+	position: fixed;
+	margin-left:60%;
+	
+}
+
+/* ===== fixed button 2 =============== */
+.button-float2{
+	position: fixed;
+	margin-left:60%;
+}
+
+/* ===== edit button for other school (admin_edit_student.php) =============== */
+.group-button-edit-violation{
+	margin-left:40%;
+}
+
+.group-button-violation{
+	margin-left:50%;
+	margin-top:-8%;
+}
+
+/* ========= Security Question Page=========*/
+.set-sec-content{
+margin-top:80px;
+width:50%;
+margin-left: 25%;
+height:400px;
+}
+
+/*================ Recover Password Page 1 ==========*/
+.custom-card-recover{
+height:220px;
+margin: 20% 0% 0% 30%;
+width: 400px;
+}
+
+/*================ Recover Password Page 2 ==========*/
+.custom-card-recover2{
+height:300px;
+margin-left:28%;
+margin-top:15%;
+width: 400px;
+}
+
+/*================ Recover Password Page 3 ==========*/
+.custom-card-recover3{
+height:380px;
+margin-left:25%;
+margin-top:10%;
+width: 400px;
+}
+
+.add-violation-content{
+margin-top:35px;
+width:38%;
+margin-left: 30%;
+height:510px;
+overflow-y: scroll;
+}
+
+/*================== card panel of student records page=================*/
+.student-records-content{
+margin-top:8%;
+width:35%;
+margin-left: 33%;
+height:300px;
+}
+
+/*================== card panel of student records results page=================*/
+.student-records-results-content{
+margin-top:15px;
+width:92%;
+margin-left: 5%;
+height:550px;
+overflow-y: scroll;
+}
+
+.collapsible-report{
+	margin-bottom:100px;
+}
+
+/* ==============  Year level  ===== grade7.php ================= */
+.year-level-content {
+	width: 90%;
+	margin-left: 5%;
+	height: 550px;
+	margin-top: 2%;
+	/* overflow-wrap: scroll; */
+	overflow-y: scroll;
+}
+
+/* ==============  Add Section Content  ==== add_section_grd7.php ================== */
+
+.add-section-content{
+margin-top:70px;
+width:35%;
+margin-left: 30%;
+height:400px;
+}
+/* ============== Violation Content==== collection_of_violation.php ================== */
+.collection-of-violation-content{
+margin-top:13px;
+width:95%;
+margin-left: 3%;
+height:550px;
+overflow-y: scroll;
+}
+/* ============== Violation Content==== add_violation_collection.php ================== */
+.add-violation-collection-content{
+margin-top:5%;
+width:40%;
+margin-left: 35%;
+height:350px;
+}
+/* ============== Dash Board Page ==== add_dashboard.php ================== */
+
+.dashboard-content{
+margin-top:15px;
+width:95.5%;
+height:1000px;
+
+}
+/*=================  ICONS ===============*/
+.icon-white{
+color:white;
+}
+.icon-pad-5{
+	padding-top:5%;
+}
+.icon-pad-30{
+padding-top:30%;
+}
+.icon-pad-20{
+padding-top:30%;
+}
+ }/* ----------- END OF LARGE -------------- */
+
+
+/*------- RESPONSIVE CONTENT ----- 
+
+.custom-card-revover{
+height:220px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+.custom-card-revover2{
+height:300px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+
+.custom-card-revover3{
+height:380px;
+margin: 30% 0% 0% 20%;
+width: 400px;
+}
+
+.dashboard-content{
+margin-top:13px;
+width:95%;
+margin-left: 2%;
+height:1000px;
+}
+
+.s-content{
+margin-top:13px;
+width:97%;
+margin-left: 2%;
+height:680px;
+overflow-y: scroll;
+}
+
+.student-records-content{
+margin-top:8%;
+width:35%;
+margin-left: 38%;
+height:300px;
+}
+
+.collection-of-violation-content{
+margin-top:13px;
+width:79%;
+margin-left: 19.5%;
+height:550px;
+overflow-y: scroll;
+}
+
+.year-level-content {
+width: 80%;
+margin-left: 19.5%;
+height: 550px;
+margin-top: 1%;
+overflow-y: scroll;
+}
+
+.add-violation-content{
+margin-top:20px;
+width:38%;
+margin-left: 33%;
+height:510px;
+}
+
+.add-violation-collection-content{
+margin-top:5%;
+width:40%;
+margin-left: 35%;
+height:350px;
+}
+
+.student-records-results-content{
+margin-top:15px;
+width:79%;
+margin-left: 20%;
+height:550px;
+overflow-y: scroll;
+}
+
+.set-sec-content{
+margin-top:80px;
+width:50%;
+margin-left: 30%;
+height:400px;
+}
+
+
