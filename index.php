@@ -33,8 +33,8 @@ include("auth/login_process.php");
 								<input  type="text"  name="username" required style="color:#f5f5f5;">
 								<label class="active" for="first_name2" >Username</label>
 							</div>
+						</div>
 					</div>
-				</div>
 					<div class="row">
 						<div class="col s1 push-s1" style="margin-top:5%;">
 							<!-- -font awesome -->
@@ -45,7 +45,6 @@ include("auth/login_process.php");
 								<label class="active" for="first_name2">Password</label>
 							</div>
 					</div>
-	
 					<div class="row">
 						<div class="col s5 push-s2">
 							<a href="ps_recover/user_recover.php" style="color:#f5f5f5"><h6>Forgot password?</h6></a>
@@ -55,7 +54,6 @@ include("auth/login_process.php");
 								<i class="material-icons right"></i>
 							</div>
 						</div>
-						
 					</div>
 				</div>
 			</div>
@@ -63,6 +61,5 @@ include("auth/login_process.php");
 		<script type="text/javascript" src="assets/jquery/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="assets/js/materialize.min.js"></script>
 		<script type="text/javascript" src="assets/js/materialize.min.js"></script>
-
 	</body>
 </html>
