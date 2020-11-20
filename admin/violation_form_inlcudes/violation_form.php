@@ -30,7 +30,7 @@
 			</select>
 		</div>
 		<div class="row">
-			<label class="col s3">Grade Level</label>
+			<label class="col s3">Section</label>
 		</div>
 		<div class="row">
 			<select id="section" name="v_sec" class="browser-default font40 col s12 " required=""> 

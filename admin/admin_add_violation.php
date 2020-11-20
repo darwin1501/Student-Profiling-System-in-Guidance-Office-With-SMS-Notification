@@ -68,7 +68,7 @@ return file_get_contents($url, false, $context);}
 
 $num = $telno ;
 $text = $body;
-$api ="TR-USERG760889_JPI6N";
+$api ="TR-DARWI612634_D9DDH";
 
 
 $result = itexmo($num,$text,$api);
@@ -307,62 +307,6 @@ else{
 			closeOnSelect: false // Close upon selecting a date,
 			});	
 
-
-			$('select').material_select();  // This script will show the error warning in drop down SELECT USER TYPE
-			$('select[required]').css({
-			display: 'inline',
-			position: 'absolute',
-			float: 'left',
-			padding: 0,
-			margin: 0,
-			border: '1px solid rgba(255,255,255,0)',
-			height: 0,
-			width: 0,
-			top: '2em',
-			left: '3em',
-			opacity: 0,
-			pointerEvents: 'none'
-			});
-			// Extension pour comptabilité avec materialize.css
-			$.validator.setDefaults({
-			highlight: function(element, errorClass, validClass) {
-			if (element.tagName === 'SELECT')
-			$(element).closest('.select-wrapper').addClass('invalid');
-			else
-			$(element).removeClass(validClass).addClass(errorClass);
-			},
-			unhighlight: function(element, errorClass, validClass) {
-			if (element.tagName === 'SELECT')
-			$(element).closest('.select-wrapper').removeClass('invalid');
-			else
-			$(element).removeClass(errorClass).addClass(validClass);
-			},
-			errorClass: 'invalid',
-			validClass: "valid",
-			errorPlacement: function(error, element) {
-			if (element.prop('tagName')  === 'SELECT') {
-			// alternate placement for select error
-			error.appendTo( element.parent() );
-			error.addClass('active');
-			}
-			else {
-			$(element)
-			.closest("form")
-			.find("label[for='" + element.attr("id") + "']")
-			.attr('data-error', error.text());
-			}
-			},
-			submitHandler: function(form) {
-			console.log('form ok');
-			}
-			});
-			$("#form").validate({
-			rules: {
-			dateField: {
-			date: true
-			}
-			}
-			});
 			
 			</script>
 	<?php

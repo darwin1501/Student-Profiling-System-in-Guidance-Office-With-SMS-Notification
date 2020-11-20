@@ -32,6 +32,11 @@ if(mysqli_num_rows($rs) > 0){
 				while($row = mysqli_fetch_array($rs)) 
 				{ 
 
+				// calculate the age
+				$dateOfBirth = $row['dob'];
+				$today = date("Y-m-d");
+				$diff = date_diff(date_create($dateOfBirth), date_create($today));
+
 					?>
 				<tr>
 					<td><?php echo $row['lrn'];
@@ -40,7 +45,7 @@ if(mysqli_num_rows($rs) > 0){
 					<td><?php echo $row['full_name'];
 						?>		
 					</td>
-					<td class="hide-on-small-only"><?php echo $row['age'];?></td>
+					<td class="hide-on-small-only"><?php echo $diff->format('%y');?></td>
 					<td class="hide-on-small-only"><?php echo $row['gen'];?></td>
 					<td><?php echo $row['tel'];
 						?>

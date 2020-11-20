@@ -119,7 +119,7 @@ include "data_chart.php";
 
 			<!-- chart js -->
 			<div class="custom-chart">
-				<h4 class="center" style="color:#616161;"><?php echo $year;?></h4>
+				<h4 class="center" style="color:#616161;">Total Number of Violators this&nbsp;<?php echo $year;?></h4>
 				<canvas id="myChart" style="margin-top:2%;"></canvas>
 			</div>
 			<div class="divider" style="margin-top:5%;"></div>

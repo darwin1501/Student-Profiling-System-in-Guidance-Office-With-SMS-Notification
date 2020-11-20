@@ -181,7 +181,7 @@ if (isset($_GET['view'])) {
 					<td><?php $row['user_type'];
 						// Identify User Type.
 						if ($row['user_type'] == 2) {
-							echo "user";
+							echo "guidance officer";
 						}else{
 							echo "guest";
 						}

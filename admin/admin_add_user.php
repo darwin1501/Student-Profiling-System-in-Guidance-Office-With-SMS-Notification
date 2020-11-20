@@ -261,7 +261,7 @@ $sql = mysqli_query($con, "INSERT INTO accounts (username, password, user_type, 
 			<div class="row">
 				<select class="col s4 push-s2" name="user" required=""> <!-- drop down structure-->
 						<option value="" disabled selected>Select Account type</option>
-						<option value="2">User</option>
+						<option value="2">Guidance Officer</option>
 						<option value="3">Guest</option>
 				</select>
 			</div>

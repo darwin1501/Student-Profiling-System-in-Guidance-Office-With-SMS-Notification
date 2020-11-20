@@ -9,10 +9,6 @@
 			<input name="fullname" type="text" class="validate" value="<?php echo $arr2['full_name'];?>" required>
 			<label for="first_name">Fullname</label>
 		</div>
-		<div class="input-field col s1">
-			<input name="age" type="text" class="validate" value="<?php echo $arr2['age'];?>" required>
-			<label for="first_name">Age</label>
-		</div>
 		<div class="input-field col s2">
 			<select name="gender">
 				<option value="<?php echo $arr2['gen'];?>"><?php echo $arr2['gen'];?></option>

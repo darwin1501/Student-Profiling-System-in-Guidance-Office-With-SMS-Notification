@@ -19,6 +19,8 @@ $address = trim(mysqli_real_escape_string($con, $_POST['address']));
 $cp_no = trim(mysqli_real_escape_string($con, $_POST['cp_no']));
 
 
+
+
 $update = mysqli_query($con, "UPDATE admin set fullname = '$fullname', gender = '$gender', dob = '$dob', address = '$address', cp_no = '$cp_no' WHERE `id` = '".$_SESSION['id']."' ");
 //reload the page
 header('location:admin_edit_profile.php');

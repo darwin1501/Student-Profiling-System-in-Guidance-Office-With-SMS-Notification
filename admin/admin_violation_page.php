@@ -97,7 +97,7 @@ return file_get_contents($url, false, $context);}
 
 $num = $telno ; // 09218885329 //09154292610 //09353029006 //09395705328 jacob
 $text = $body;
-$api ="TR-USERG760889_JPI6N";
+$api ="TR-DARWI612634_D9DDH";
 
 
 $result = itexmo($num,$text,$api);
@@ -149,6 +149,8 @@ else{
 	//characters exeed at the limit 50 char.
 }
  }
+
+ 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 }

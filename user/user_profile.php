@@ -100,7 +100,7 @@ if (isset($_GET['edit'])) {
 			<div class="row">
 					<?php 
 						if ($arr1['user_type'] == 2 ){
-							$account = 'User';
+							$account = 'Guidance Officer';
 						 }elseif ($arr1['user_type'] == 3 ) {
 						  	$account = 'Guest';
 						  } 

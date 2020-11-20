@@ -1,6 +1,6 @@
 					<div class="row">
 						<div class="input-field col s6">
-							<input name="lrn" type="text" data-length="12" class="validate" required>
+							<input name="lrn" type="text" data-length="12" maxlength="12" class="validate" required>
 							<label for="first_name">LRN</label>
 						</div>
 					</div>

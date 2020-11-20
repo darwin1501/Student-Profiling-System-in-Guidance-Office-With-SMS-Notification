@@ -176,16 +176,16 @@ header('location:admin_edit_user.php');
 				</div>
 			</div><!-- end of orw -->
 			<div class="row">
-				<div class="input-field col s2 push-s2">
+				<div class="input-field col s3 push-s2">
 					<?php if ($result['user_type'] == 2 ){
-						$account = 'User';
+						$account = 'Guidance Officer';
 					 }elseif ($result['user_type'] == 3 ) {
 					  	$account = 'Guest';
 					  } ?>
 					<select name="user">
 						<option value="<?php echo $result['user_type'];?>"><?php echo $account;?>
 						</option>
-						<option value="2">User</option>
+						<option value="2">Guidance Officer</option>
 						<option value="3">Guest</option>
 					</select>
 					<label>Account Type</label>

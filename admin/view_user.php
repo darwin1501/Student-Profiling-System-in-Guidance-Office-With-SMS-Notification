@@ -146,7 +146,7 @@ if (isset($_GET['view'])) {
 			<div class="row">
 					<?php 
 						if ($result['user_type'] == 2 ){
-							$account = 'User';
+							$account = 'Guidance Officer';
 						 }elseif ($result['user_type'] == 3 ) {
 						  	$account = 'Guest';
 						  } 
